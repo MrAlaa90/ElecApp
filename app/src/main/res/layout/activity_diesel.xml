@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DieselActivity">
+
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/diestxtView"
+            android:text="@string/diesel"
+            android:layout_margin="20dp"/>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvOtD"
+                android:text="@string/ot"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/diestxtView"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edOtD"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@id/tvOtD" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvWtD"
+                android:text="@string/wt"
+                android:layout_marginLeft="130dp"
+                android:layout_alignBaseline="@+id/tvOtD"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edWtD"
+                android:layout_marginLeft="130dp"
+                android:layout_below="@+id/tvWtD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHD"
+        android:text="@string/heater"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBaseline="@+id/tvWtD"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rHDOn"
+        android:text="@string/on"
+        android:layout_alignBaseline="@id/edWtD"
+        android:layout_marginLeft="190dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rHDOff"
+        android:text="@string/off"
+        android:layout_below="@id/rHDOn"
+        android:layout_marginLeft="190dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvWD"
+        android:text="@string/water"
+        android:layout_marginLeft="280dp"
+        android:layout_alignBaseline="@+id/tvHD"/>
+
+    <RadioButton
+        android:id="@+id/rWDOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/rHDOn"
+        android:layout_marginLeft="270dp"
+        android:text="@string/on" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rWDOff"
+        android:text="@string/off"
+        android:layout_below="@id/rWDOn"
+        android:layout_marginLeft="270dp"/>
+
+
+
+
+
+
+    </RelativeLayout>

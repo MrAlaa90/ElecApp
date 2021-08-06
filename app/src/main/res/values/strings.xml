@@ -138,5 +138,29 @@
     <string name="m04">M 04</string>
     <string name="m05">M 05</string>
     <string name="m06">M 06</string>
+    <string name="k1">K 1</string>
+    <string name="k2">K 2</string>
+    <string name="k3">K 3</string>
+    <string name="k4">K 4</string>
+    <string name="k5">K 5</string>
+    <string name="k66">K 6</string>
+    <string name="charger">Charger</string>
+    <string name="load">Load</string>
+    <string name="mv">M.V</string>
+    <string name="mc">M.C</string>
+    <string name="dcv">DC.V</string>
+    <string name="dcc">DC.C</string>
+    <string name="av">A.V</string>
+    <string name="bc">B.C</string>
+    <string name="ch1">1</string>
+    <string name="ch2">2</string>
+    <string name="ch3">3</string>
+    <string name="ch4">4</string>
+    <string name="ch5">5</string>
+    <string name="ch6">6</string>
+    <string name="ch7">7</string>
+    <string name="ch8">8</string>
+    <string name="ch9">9</string>
+    <string name="inverter">Inverter</string>
 
 </resources>

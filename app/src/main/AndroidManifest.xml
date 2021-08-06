@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ElecApp">
-        <activity android:name=".DieselActivity"></activity>
+        <activity android:name=".ChargerInverter"></activity>
+        <activity android:name=".DieselActivity" />
         <activity android:name=".TransActivity" />
         <activity android:name=".SgMcc" />
         <activity android:name=".ElecActivity" />

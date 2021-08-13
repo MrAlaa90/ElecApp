@@ -162,5 +162,25 @@
     <string name="ch8">8</string>
     <string name="ch9">9</string>
     <string name="inverter">Inverter</string>
+    <string name="gasArea">Gas Area</string>
+    <string name="transformers">Transformars</string>
+    <string name="ctg1">CTG1</string>
+    <string name="main">Main</string>
+    <string name="oiltemp">Oil Temp</string>
+    <string name="windtemp">Wind Temp</string>
+    <string name="leakagecurrent">Leakage Current</string>
+    <string name="r">R</string>
+    <string name="s">S</string>
+    <string name="t">T</string>
+    <string name="aux">Aux</string>
+    <string name="xtemp">X Temp</string>
+    <string name="ytemp">Y Temp</string>
+    <string name="tap">Tap</string>
+    <string name="charge">Ch</string>
+    <string name="ch">ch</string>
+    <string name="excitation">Excitation</string>
+    <string name="stg">STG</string>
+    <string name="r1">R1</string>
+    <string name="r2">R2</string>
 
 </resources>

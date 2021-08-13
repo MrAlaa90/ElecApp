@@ -1,48 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TapActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
     <Button
         android:id="@+id/elecBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/elec"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="136dp" />
+        android:layout_marginLeft="160dp"
+        android:text="@string/elec" />
 
     <Button
         android:id="@+id/mechaBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mecha"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="222dp" />
+        android:layout_below="@+id/elecBtn"
+        android:layout_marginLeft="160dp"
+         />
 
     <Button
         android:id="@+id/prmtBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/permit"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="303dp" />
+        android:layout_below="@+id/mechaBtn"
+        android:layout_marginLeft="160dp"
+         />
 
     <Button
         android:id="@+id/techBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tech"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:layout_below="@+id/prmtBtn"
+        android:layout_marginLeft="160dp"
+         />
 
     <Button
         android:id="@+id/archBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/arch"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="465dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_below="@+id/techBtn"
+        android:layout_marginLeft="160dp"
+         />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:layout_gravity="center"
+        android:layout_below="@+id/archBtn"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"/>
+
+
+</RelativeLayout>

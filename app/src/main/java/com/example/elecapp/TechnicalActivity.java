@@ -7,18 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DieselActivity extends AppCompatActivity {
+public class TechnicalActivity extends AppCompatActivity {
     Button home;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diesel);
+        setContentView(R.layout.activity_technical);
         home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DieselActivity.this, ElecActivity.class);
+                Intent i = new Intent(TechnicalActivity.this, ElecActivity.class);
                 startActivity(i);
             }
         });

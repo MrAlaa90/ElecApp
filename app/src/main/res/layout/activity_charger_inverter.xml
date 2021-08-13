@@ -768,6 +768,16 @@
             android:layout_below="@+id/edbcInv1"
             android:layout_marginLeft="90dp"/>
 
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:layout_gravity="center"
+            android:layout_below="@+id/edInv2"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"/>
+
 
 
 

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText username, pass;
     private Button login;
     private SharedPreferences shared;
+    Users_DB db = new Users_DB(this);
+
+    EditText name , password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+                 name = (EditText) findViewById(R.id.editTextUserName);
+                 password = (EditText) findViewById(R.id.editTextPass);
 
         }
     private void creatShortcut(){
@@ -60,6 +66,20 @@ public class MainActivity extends AppCompatActivity {
         sendBroadcast(shortcut);
         shared.edit().putInt("shortcut",1).commit();
 
+
+    }
+
+    public void SignupBtn(View view) {
+        String Name = name.getText().toString();
+        String Password = password.getText().toString();
+       Boolean result = db.insertData(Name,Password);
+       if (result == true) {
+           Toast.makeText(MainActivity.this, "OK", Toast.LENGTH_SHORT).show();
+                name.setText("");
+                password.setText("");
+         }else {
+           Toast.makeText(MainActivity.this, "NO", Toast.LENGTH_SHORT).show();
+       }
 
     }
 }

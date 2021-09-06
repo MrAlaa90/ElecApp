@@ -307,12 +307,14 @@
             android:id="@+id/edDCV4"
             android:layout_below="@+id/edDCV3"
             android:layout_marginLeft="180dp"/>
+
         <EditText
+            android:id="@+id/edDCV5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edDCV5"
             android:layout_below="@+id/edDCV4"
-            android:layout_marginLeft="180dp"/>
+            android:layout_marginLeft="180dp"
+            tools:ignore="SpeakableTextPresentCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -356,12 +358,14 @@
             android:id="@+id/edDCc2"
             android:layout_below="@+id/edDCc1"
             android:layout_marginLeft="230dp"/>
+
         <EditText
+            android:id="@+id/edDCc3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edDCc3"
             android:layout_below="@+id/edDCc2"
-            android:layout_marginLeft="230dp"/>
+            android:layout_marginLeft="230dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -496,12 +500,14 @@
             android:id="@+id/edBC5"
             android:layout_below="@+id/edBC4"
             android:layout_marginLeft="320dp"/>
+
         <EditText
+            android:id="@+id/edBC6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edBC6"
             android:layout_below="@+id/edBC5"
-            android:layout_marginLeft="320dp"/>
+            android:layout_marginLeft="320dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -551,12 +557,14 @@
             android:id="@+id/edTemp4"
             android:layout_below="@+id/edTemp3"
             android:layout_marginLeft="360dp"/>
+
         <EditText
+            android:id="@+id/edTemp5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edTemp5"
             android:layout_below="@+id/edTemp4"
-            android:layout_marginLeft="360dp"/>
+            android:layout_marginLeft="360dp"
+            tools:ignore="SpeakableTextPresentCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -612,6 +620,7 @@
             android:id="@+id/edTemInv1"
             android:layout_below="@+id/tvTempInv"
             android:layout_marginLeft="40dp"/>
+
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -676,12 +685,14 @@
             android:text="@string/dcv"
             android:layout_alignBaseline="@+id/tvTempInv"
             android:layout_marginLeft="230dp"/>
+
         <EditText
+            android:id="@+id/edDCVInv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edDCVInv1"
             android:layout_below="@+id/tvdcvInv"
-            android:layout_marginLeft="230dp"/>
+            android:layout_marginLeft="230dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -714,12 +725,14 @@
             android:text="@string/mv"
             android:layout_alignBaseline="@+id/tvTempInv"
             android:layout_marginLeft="320dp"/>
+
         <EditText
+            android:id="@+id/edMvInv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/edMvInv1"
             android:layout_below="@+id/tvmvInv"
-            android:layout_marginLeft="320dp"/>
+            android:layout_marginLeft="320dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

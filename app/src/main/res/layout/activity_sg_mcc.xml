@@ -56,13 +56,14 @@
             android:layout_marginLeft="70dp"
             android:layout_alignBaseline="@+id/etKV12"
             android:layout_marginTop="60dp"/>
+
         <EditText
+            android:id="@+id/etKV12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/etKV12"
             android:layout_below="@+id/etKV11"
             android:layout_marginLeft="135dp"
-            />
+            tools:ignore="SpeakableTextPresentCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -459,11 +460,12 @@
             android:layout_marginLeft="200dp"/>
 
         <EditText
+            android:id="@+id/etLc4In21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/etLc4In21"
             android:layout_alignBaseline="@+id/tvlc4"
-            android:layout_marginLeft="260dp"/>
+            android:layout_marginLeft="260dp"
+            tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

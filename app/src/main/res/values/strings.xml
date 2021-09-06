@@ -5,8 +5,8 @@
     <string name="Login">LogIn</string>
     <string name="elec">كهرباء</string>
     <string name="mecha">ميكانيكا</string>
-    <string name="permit">اوامر الشغل</string>
-    <string name="tech">شئون فنية</string>
+    <string name="permit">شئون عاملين</string>
+    <string name="tech">اوامر الشغل</string>
     <string name="arch">ارشيف</string>
     <string name="tranc">Transformer</string>
     <string name="k6">SG &amp; MCC</string>
@@ -182,5 +182,7 @@
     <string name="stg">STG</string>
     <string name="r1">R1</string>
     <string name="r2">R2</string>
+    <string name="ctg1">CTG1</string>
+    <string name="package">Package</string>
 
 </resources>

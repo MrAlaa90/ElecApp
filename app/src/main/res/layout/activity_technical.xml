@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <TextView
@@ -36,8 +36,7 @@
             android:layout_below="@+id/tvR1"
             android:layout_marginLeft="137dp"
             android:minWidth="48dp"
-            android:minHeight="48dp"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:minHeight="48dp" />
 
 
 
@@ -56,8 +55,7 @@
             android:layout_below="@+id/tvR2"
             android:layout_marginLeft="277dp"
             android:minWidth="48dp"
-            android:minHeight="48dp"
-            tools:ignore="SpeakableTextPresentCheck" />
+            android:minHeight="48dp" />
 
         <View
             android:id="@+id/divider5"
@@ -67,14 +65,141 @@
             android:background="@color/black"
             android:paddingTop="20dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ctg1"
+            android:layout_below="@id/divider5"
+            android:layout_marginLeft="190dp"
+            android:id="@+id/tloc1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tlopc1"
+            android:text="Package"
+            android:layout_below="@+id/tloc1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/c1pmw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="30dp"
+            android:text="MWH" />
+
+        <EditText
+            android:id="@+id/etmwc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1pmw"
+            android:layout_marginLeft="30dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c1pmv"
+            android:text="MVH"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="110dp"/>
+
+        <EditText
+            android:id="@+id/etmvc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1pmv"
+            android:layout_marginLeft="110dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c1pgf"
+            android:text="Gas Flow"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="170dp"/>
+
+        <EditText
+            android:id="@+id/etgfc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1pgf"
+            android:layout_marginLeft="175dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/c1poh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="250dp"
+            android:text="Op.Hours" />
+
+        <EditText
+            android:id="@+id/etohc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1poh"
+            android:layout_marginLeft="250dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c1pnos"
+            android:text="N.O.S"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="320dp"/>
+
+        <EditText
+            android:id="@+id/etnosc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1pnos"
+            android:layout_marginLeft="320dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/c1pnot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tlopc1"
+            android:layout_marginLeft="370dp"
+            android:text="N.O.T" />
+
+        <EditText
+            android:id="@+id/etnotc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/c1pnos"
+            android:layout_marginLeft="370dp"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
         <Button
             android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/home"
             android:layout_gravity="center"
-            android:layout_below="@+id/divider5"
-            android:layout_marginTop="50dp"
+
+            android:layout_marginTop="500dp"
             android:layout_marginLeft="160dp"/>
 
 
